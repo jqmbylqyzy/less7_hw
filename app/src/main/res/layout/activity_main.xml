@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:text="IT directions" />
+    <TextView
+        android:id="@+id/phone"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a direction" />
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_700"
+        android:text="Evaluate this lesson" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/excl"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Full" />
+        <RadioButton
+            android:id="@+id/good"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Good" />
+        <RadioButton
+            android:id="@+id/okay"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Normal" />
+        <RadioButton
+            android:id="@+id/poor"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="okay" />
+    </RadioGroup>
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:text="Give your few suggestoin here" />
+    <CheckBox
+        android:id="@+id/mne_len"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="koshirme"/>
+    <CheckBox
+        android:id="@+id/mne_ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ozin bil"
+        tools:ignore="DuplicateIds" />
+    <CheckBox
+        android:id="@+id/yeap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vybor za toboi"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+</LinearLayout>

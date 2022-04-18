@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_shp_card"
+        android:title="Item"
+        android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_error"
+        android:icon="@drawable/ic_baseline_error_outline_24"
+        app:showAsAction="ifRoom"
+        android:title="Exit" />
+    <item
+        android:id="@+id/menu_fav"
+        android:title="Izbrannye" />
+    <item
+        android:id="@+id/menu_contc"
+        android:title="Contact" />
+    <item
+        android:id="@+id/menu_about"
+        android:title="About" />
+</menu>
